@@ -118,8 +118,14 @@ nav, footer {
     min-height: 150px;
     height: 15vw;
     width: 15vw;
+}
+
+.image-holder img {
+    width: 100%;
+    height: 100%;    
     border: 8px solid #3882f6;
     border-radius: 2rem;
+    object-fit: cover;
 }
 
 .card-gallery {
