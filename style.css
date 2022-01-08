@@ -173,7 +173,9 @@ nav, footer {
 }
 
 footer {
-    padding: 1rem;
+    padding: 30px 1rem 1rem 1rem;
+    flex-direction: column;    
     color: #f9faf8;
     justify-content: center;
+    row-gap: 15px;
 }
